@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+/* Variables generale */
+:root{
+    --margen: 0;
+    --pading: 0;
+}
+/* Reset */
+*{
+    margin: var(--margen);
+    padding: var(--pading);
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Mate SC', serif;
+}
+/* Estilos del cuerpo */
+body{
+    /* Variables del body */
+    --color: white;
+    /* Variables del body */
+    background: var(--color);
+}
+/* Estilos de la cabecera */
+header{
+    /* Variables header */
+    /* Variables header */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+header .titulo{
+    display: flex;
+    flex: row;
+    align-items: center;
+    gap: 1em;
+}
+header .titulo h1{
+    font-size: 22px;
+    color: gray;
+}
+header .titulo img{
+    /* Variables header */
+    --anchoImgHeader: 43px;
+    --altoImgHeader: 40px;
+    /* Variables header */
+    width: var(--anchoImgHeader);
+    height: var(--altoImgHeader);
+}

@@ -1,0 +1,27 @@
+.card{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: -53em 0;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+
+}
+.card-text img{
+    width: 63px;
+    height: 60px;
+}
+.ifoFooter{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.copy{
+    margin: 0 1em;
+}

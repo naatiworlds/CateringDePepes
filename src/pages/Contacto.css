@@ -1,0 +1,70 @@
+.headerContacto{
+    background-image: url(/src/assets/bannerContacto.jpg);
+    background-position: 70% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+
+}
+.mask{
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+}
+.text-white{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity));
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    gap: 10em;
+    /* margin: 10em 0;*/
+}
+.text-white h1{
+    font-size: 60px;
+    color: white;
+}
+.headerContacto a{
+    color: white;
+    font-size: 22px;
+}
+.headerContacto button{
+    border: 1px solid white;
+}
+.headerContacto button :hover{ 
+    background: rgba(255, 255, 255, 0.5);
+}   
+.headerContacto button :active{ 
+    background: rgba(255, 255, 255, 0.5);
+} 
+.headerContacto a:hover{
+    color: white;
+    background-color: transparent;
+}
+.headerContacto a:active{
+    font-weight: bold;
+}
+.cuadro{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 3em 0;
+}
+.btn-outline-light{
+    --bs-btn-hover-bg: rgba(255, 255, 255, 0.5);
+    --bs-btn-active-bg: rgba(255, 255, 255, 0.7);
+}
