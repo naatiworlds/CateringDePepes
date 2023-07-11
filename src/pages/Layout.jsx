@@ -14,10 +14,10 @@ const Layout = () => {
         </div>
         <Navegacion />
       </header>
+      <Outlet />
       <footer>
         <Footer />
       </footer>
-      <Outlet />
     </>
   )
 };

@@ -5,7 +5,7 @@ import Home from './pages/Home';
 function Navegacion() {
   return (
     <>
-      <Navbar bg='beige' variant='beige' width='100%' expand='lg' sticky='top'> 
+      <Navbar bg='beige' variant='beige' width='100%' expand='lg' stkicy='top'> 
         <Nav>
           <Navbar.Toggle />
           <Navbar.Collapse>
@@ -17,7 +17,7 @@ function Navegacion() {
               <NavDropdown.Divider></NavDropdown.Divider>
               
               <NavDropdown.Item href='/MenuPorPrecio'>Menú por precios</NavDropdown.Item>
-              <NavDropdown.Item href='#'>Menú infantil</NavDropdown.Item>
+              <NavDropdown.Item href='/MenuInfantil'>Menú infantil</NavDropdown.Item>
               <NavDropdown.Item href='#'>Menú a la carta</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href='#'>Quiénes somos</Nav.Link>

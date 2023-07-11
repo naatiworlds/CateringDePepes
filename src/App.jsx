@@ -5,6 +5,7 @@ import Layout from "./pages/Layout";
 import Contacto from "./pages/Contacto";
 import NuestraCarta from "./pages/NuestraCarta";
 import MenuPorPrecio from "./pages/MenuPorPrecio";
+import MenuInfantil from "./pages/MenuInfantil"
 import NoPage from "./pages/NoPage";
 
 function App(){
@@ -16,6 +17,7 @@ function App(){
           <Route path="contacto" element={<Contacto />} />
           <Route path="NuestraCarta" element={<NuestraCarta />} />
           <Route path="MenuPorPrecio" element={<MenuPorPrecio />} />
+          <Route path="MenuInfantil" element={<MenuInfantil />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

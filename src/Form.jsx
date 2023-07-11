@@ -1,3 +1,13 @@
+import React, {useRef} from "react";
+import emailjs from '@emailjs/browser'
+
+// function From(){
+//   const refForm = useRef();
+//   const handleSubmit = (event) =>{
+//     event.preventDefault();
+//   }
+// }
+
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
@@ -7,7 +17,7 @@ import './Form.css'
 
 function From() {
   return (
-    <Form>
+    <Form id='formulario'>
       <Row className="mb-3">
 
         <Form.Group as={Col} controlId="Name">
@@ -69,3 +79,4 @@ function From() {
 }
 
 export default From;
+

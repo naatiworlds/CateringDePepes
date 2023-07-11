@@ -1,4 +1,4 @@
-.headerMenuPorPrecio{
+.headerMenuInfantil{
     background-image: url(/src/assets/bannerMenuPorPrecio.jpg);
     background-position: 70% 50%;
     background-repeat: no-repeat;
@@ -34,24 +34,24 @@
     font-size: 60px;
     color: white;
 }
-.headerMenuPorPrecio a{
+.headerMenuInfantil a{
     color: white;
     font-size: 22px;
 }
-.headerMenuPorPrecio button{
+.headerMenuInfantil button{
     border: 1px solid white;
 }
-.headerMenuPorPrecio button :hover{ 
+.headerMenuInfantil button :hover{ 
     background: rgba(255, 255, 255, 0.5);
 }   
-.headerMenuPorPrecio button :active{ 
+.headerMenuInfantil button :active{ 
     background: rgba(255, 255, 255, 0.5);
 } 
-.headerMenuPorPrecio a:hover{
+.headerMenuInfantil a:hover{
     color: white;
     background-color: transparent;
 }
-.headerMenuPorPrecio a:active{
+.headerMenuInfantil a:active{
     font-weight: bold;
 }
 .cuadro{
@@ -89,7 +89,7 @@ article p{
     font-size: 22px;
     text-align: center;
 }
-.individual{
+.opciones{
     display: flex;
     flex-direction: row;
     gap: 2em;
