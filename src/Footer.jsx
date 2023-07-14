@@ -17,7 +17,7 @@ function Footer() {
             <Card.Text>
             Información de contacto <br />
             Teléfono: 634 126 753 // 600  492  931 <br />
-            Gmail: <a href='»mailto:cateringdepepes@gmail.com subject=Consulta%20dietas&body=Deseo%20información%20sobre%20las%Menús»'>cateringdepepes@gmail.com</a> 
+            Gmail: <a href='»mailto:cateringdepepes@gmail.com?subject=Consulta%20dietas&body=Deseo%20información%20sobre%20las%Menús»'>cateringdepepes@gmail.com</a> 
             </Card.Text>
             
         </Card.Body>
