@@ -1,3 +1,55 @@
 form{
+    display: flex;
+    flex-direction: column;
     margin: 5em 5em;
+    gap: 1em;
+
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    place-items: center ;
+    justify-content: center;
+    gap: 1em;
+}
+.contacto label{
+    display: inline-block;
+        width: 150px;
+        text-align: right;
+}
+.nombre{
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    gap: 1em;
+}
+.numero{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.correo{
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+
+    gap: 1em;
+}
+
+.direccion{
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+
+    gap: 1em;
+}
+.boton{
+    margin: 0 auto;
+    width: 10%;
+    height: 2em;
+}
+textarea{
+    resize: none;
+    width: 650px;
+    margin: 0 auto;;
 }
