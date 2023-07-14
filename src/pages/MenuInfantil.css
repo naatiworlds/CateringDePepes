@@ -94,3 +94,19 @@ article p{
     flex-direction: row;
     gap: 2em;
 }
+@media screen and (max-width: 300px) {
+    .opciones{
+        display: block;
+    }
+}
+@media screen and (min-width: 300px) {
+    .opciones{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .opciones{
+        display: flex;
+    }
+}

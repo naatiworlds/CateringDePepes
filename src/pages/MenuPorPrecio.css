@@ -69,7 +69,7 @@
     --bs-btn-active-bg: rgba(255, 255, 255, 0.7);
 }
 section{
-    margin: 1em 0;
+    margin: 1em auto;
     display: flex;
     flex-direction: column;
     place-items: center;
@@ -92,5 +92,23 @@ article p{
 .individual{
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    justify-content: center;
+    max-width: 50%;
+    gap: 1em;
+}
+@media screen and (max-width: 300px) {
+    .individual{
+        display: block;
+    }
+}
+@media screen and (min-width: 300px) {
+    .individual{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .individual{
+        display: flex;
+    }
 }
