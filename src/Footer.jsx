@@ -15,9 +15,11 @@ function Footer() {
         <Card.Body>
             <Card.Title>Contacto</Card.Title>
             <Card.Text>
-            Información de contacto <br />
-            Teléfono: 634 126 753 // 600  492  931 <br />
-            Gmail: <a href='mailto:cateringdepepes@gmail.com'>cateringdepepes@gmail.com</a> 
+              <div>
+                Información de contacto <br />
+                Teléfono: 634 126 753 // 600  492  931 <br />
+                Gmail: <a href='mailto:cateringdepepes@gmail.com'>cateringdepepes@gmail.com</a>
+              </div>
             </Card.Text>
             
         </Card.Body>

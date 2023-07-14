@@ -19,8 +19,9 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    width: 100%;
     align-items: center;
+    justify-content: center;
 }
 .card-text img{
     width: 63px;
