@@ -22,8 +22,8 @@ function From() {
         name="contact"
         method="post"
         data-netlify="true"
-        data-netlify-honeypot="bot-field">
-          
+        data-netlify-honeypot="bot-field"> 
+
       <label htmlFor="nombre">Nombre</label>
       <input type="text" name="nombre" id="nombre" placeholder="Nombre"/>
       
