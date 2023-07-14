@@ -56,3 +56,18 @@ header .titulo img{
     width: var(--anchoImgHeader);
     height: var(--altoImgHeader);
 }
+@media screen and (max-width:300px) {
+    header{
+        display: block;
+    }
+}
+@media screen and (min-width:300px) {
+    header{
+        display: block;
+    }
+}
+@media screen and (min-width:500px) {
+    header{
+        display: flex;
+    }
+}
