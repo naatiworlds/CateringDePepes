@@ -73,7 +73,7 @@ function From() {
 
       <Form.Group className="mb-3" id="formGridCheckbox">
         <Form.Check type="checkbox" label="Recuérdame" />
-        <Form.Check type="hidden" name="form-name" value="contact" />
+        <Form.Control type="hidden" name="form-name" value="contact" />
       </Form.Group>
 
       <Button variant="primary" type="submit">
