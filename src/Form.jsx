@@ -16,10 +16,10 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './Form.css'
 
 function From() {
-  const form = document.getElementById("formulario")
-  const enviar  = addEventListener("submit", ()=>{
-
-  })
+  const refForm = useRef();
+  const handleSubmit = (event) =>{
+    event.preventDefault();
+  }
   return (
     <Form id='formulario' name="contacto" method="POST" data-netlify="true">
       <Row className="mb-3">
