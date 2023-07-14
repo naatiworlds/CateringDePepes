@@ -21,7 +21,7 @@ function From() {
 
   })
   return (
-    <Form id='formulario' data-netlify="true">
+    <Form id='formulario' name="contacto" method="POST" data-netlify="true">
       <Row className="mb-3">
 
         <Form.Group as={Col} controlId="Name">
