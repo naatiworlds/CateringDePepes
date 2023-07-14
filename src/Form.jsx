@@ -19,7 +19,7 @@ function From() {
  
   return (
     <>
-      <form name="contacto" netlify>
+      <form name="contacto" method="POST" data-netlify="true">
       <label htmlFor="nombre">Nombre</label>
       <input type="text" name="nombre" id="nombre" placeholder="Su nombre"/>
       <label htmlFor="correo">Correo</label>
