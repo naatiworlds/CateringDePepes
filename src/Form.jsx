@@ -79,7 +79,7 @@ function From() {
     //     Submit
     //   </Button>
     // </Form>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdg_vybYPo6K9-QkphahYozylzfkpt8IoE0rzFo8wI6DlgUag/viewform?pli=1&pli=1&pli=1&edit2=2_ABaOnuc46IjL3MmkuLE5nxqXF87RTyB41mvU4VxPXJq_BeAlhNGAqncbDduCTd7XUw" frameborder="1"></iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdg_vybYPo6K9-QkphahYozylzfkpt8IoE0rzFo8wI6DlgUag/viewform?pli=1" frameborder="1"></iframe>
   );
 }
 
