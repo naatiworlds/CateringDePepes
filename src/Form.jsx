@@ -16,10 +16,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './Form.css'
 
 function From() {
-  const refForm = useRef();
-  const handleSubmit = (event) =>{
-    event.preventDefault();
-  }
+ 
   return (
     <>
       <form netlify>
