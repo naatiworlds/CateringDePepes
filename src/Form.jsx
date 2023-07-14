@@ -26,40 +26,40 @@ function From() {
 
         <Form.Group as={Col} controlId="Name">
           <Form.Label>Nombre</Form.Label>
-          <Form.Control type="text" placeholder="Nombre" />
+          <Form.Control type="text" placeholder="Nombre" name="nombre"/>
           <Form.Text>EL nombre no puede contener números</Form.Text>
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="example@gmail.com" />
+          <Form.Control type="email" placeholder="example@gmail.com" name="email"/>
         </Form.Group>
       </Row>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridAddress1">
             <Form.Label>Dirección</Form.Label>
-            <Form.Control placeholder="C/ España" />
+            <Form.Control placeholder="C/ España" name="dirección"/>
         </Form.Group>
         <Form.Group as={Col} controlId="formGridAddress1">
-            <Form.Label>Número de puerta</Form.Label>
-            <Form.Control placeholder="12" />
+            <Form.Label>piso</Form.Label>
+            <Form.Control placeholder="12" name="piso"/>
         </Form.Group>
         </Row>
         
       <Form.Group className="mb-3" controlId="formGridNumber">
         <Form.Label>Número</Form.Label>
-        <Form.Control type='tel' placeholder="634 126 753" />
+        <Form.Control type='tel' placeholder="634 126 753" name="numero"/>
       </Form.Group>
 
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridCity">
           <Form.Label>Provincia</Form.Label>
-          <Form.Control />
+          <Form.Control type="text" name="provincia"/>
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridState">
           <Form.Label>Ciuadad</Form.Label>
-          <Form.Select defaultValue="Choose...">
+          <Form.Select name="ciudad" defaultValue="Choose...">
             <option>Choose...</option>
             <option>...</option>
           </Form.Select>
@@ -67,7 +67,7 @@ function From() {
 
         <Form.Group as={Col} controlId="formGridZip">
           <Form.Label>Código postal</Form.Label>
-          <Form.Control />
+          <Form.Control type="number" name="códigopostal"/>
         </Form.Group>
       </Row>
 
