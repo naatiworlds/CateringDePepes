@@ -16,12 +16,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './Form.css'
 
 function From() {
-  const form = document.getElementById("formulario")
-  const enviar  = addEventListener("submit", ()=>{
-
-  })
+  
   return (
-    <form id="formulario" name="contacto">
+    <form id="formulario" name="contacto" method="POST">
       <label htmlFor="nombre">Nombre</label>
       <input type="text" name="nombre" id="nombre" placeholder="Nombre"/>
       
