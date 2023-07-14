@@ -57,6 +57,10 @@ function From() {
       <Form.Group className="mb-3" id="formGridCheckbox">
         <Form.Check type="checkbox" label="Recuérdame" />
       </Form.Group>
+
+      <Button variant="primary" type="submit">
+        Submit
+      </Button>
     </Form>
   );
 }
