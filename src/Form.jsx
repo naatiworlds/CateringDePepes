@@ -19,7 +19,7 @@ function From() {
   
   return (
     <>
-    <form name="contact">
+    <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="contact" />
 
       <label htmlFor="nombre">Nombre</label>
