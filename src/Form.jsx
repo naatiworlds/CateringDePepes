@@ -37,6 +37,7 @@ function From() {
 
       <textarea name="comentarios" id="comentarios" cols="50" rows="10" placeholder="Escriba un comentario"></textarea>
 
+      <button type="submit">Enviar</button>
     </form>
     // <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdg_vybYPo6K9-QkphahYozylzfkpt8IoE0rzFo8wI6DlgUag/viewform?pli=1" frameborder="1"></iframe>
   );
