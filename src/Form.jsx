@@ -27,6 +27,7 @@ function From() {
       <label htmlFor="numero">número</label>
       <input type="tel" name="numero" id="numero" placeholder="687 78 89 12"/>
       <textarea name="opinion" id="opinion" cols="30" rows="10" placeholder="Añada un comentario aquí"></textarea>
+      <input type="hidden" name="form-name" value="contact" />
       <button type="submit">Enviar</button>
     </form>
     </>
