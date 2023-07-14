@@ -21,10 +21,11 @@ function From() {
 
   })
   return (
-    <Form id='formulario' name="contacto" netlify>
+    <Form id='formulario' name="contacto">
       <Row className="mb-3">
 
         <Form.Group as={Col} controlId="Name">
+          <Form.Control type="hidden" name="form-name" value="contact" />
           <Form.Label>Nombre</Form.Label>
           <Form.Control type="text" placeholder="Nombre" name="nombre"/>
           <Form.Text>EL nombre no puede contener números</Form.Text>
@@ -73,7 +74,6 @@ function From() {
 
       <Form.Group className="mb-3" id="formGridCheckbox">
         <Form.Check type="checkbox" label="Recuérdame" />
-        <Form.Control type="hidden" name="form-name" value="contact" />
       </Form.Group>
 
       <Button variant="primary" type="submit">
