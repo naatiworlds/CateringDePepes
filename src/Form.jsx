@@ -16,30 +16,49 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './Form.css'
 
 function From() {
-  
+  const handleChange = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const form = e.target
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...state,
+      }),
+    })
+      .then(() => navigate(form.getAttribute('action')))
+      .catch((error) => alert(error))
+  }
   return (
+
     <form 
         name="contact"
         method="post"
         data-netlify="true"
-        data-netlify-honeypot="bot-field"> 
+        data-netlify-honeypot="bot-field"
+        onSubmit={handleSubmit}> 
+      <input type="hidden" name="form-name" value="contact" />
 
       <label htmlFor="nombre">Nombre</label>
-      <input type="text" name="nombre" id="nombre" placeholder="Nombre"/>
+      <input type="text" name="nombre" id="nombre" placeholder="Nombre" onChange={handleChange}/>
       
       <label htmlFor="correo">Correo</label>
-      <input type="email" name="correo" id="correo" placeholder="Example@gmail.com"/>
+      <input type="email" name="correo" id="correo" placeholder="Example@gmail.com" onChange={handleChange}/>
       
       <label htmlFor="numero">Número</label>
-      <input type="tel" name="numero" id="numero" placeholder="378 78 65 78"/>
+      <input type="tel" name="numero" id="numero" placeholder="378 78 65 78" onChange={handleChange}/>
       
       
       <label htmlFor="direccion">dirección</label>
-      <input type="text" name="direccion" id="direccion" placeholder="direccion"/>
+      <input type="text" name="direccion" id="direccion" placeholder="direccion" onChange={handleChange}/>
 
-      <textarea name="comentarios" id="comentarios" cols="50" rows="10" placeholder="Escriba un comentario"></textarea>
+      <textarea name="comentarios" id="comentarios" cols="50" rows="10" placeholder="Escriba un comentario" onChange={handleChange}></textarea>
       
-      <input type="hidden" name="form-name" value="contact" />
       
       <button type="submit">Enviar</button>
     </form>
