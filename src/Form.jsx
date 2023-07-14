@@ -18,7 +18,12 @@ import './Form.css'
 function From() {
   
   return (
-    <form id="formulario" name="contacto" method="POST" netlify netlify-honeypot="bot-field">
+    <form 
+        name="contact"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field">
+          
       <label htmlFor="nombre">Nombre</label>
       <input type="text" name="nombre" id="nombre" placeholder="Nombre"/>
       
