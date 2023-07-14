@@ -18,7 +18,7 @@ import './Form.css'
 function From() {
   
   return (
-    <Form id='formulario' action="mailto:cateringdepepes@gmail.com">
+    <Form name="contact" method="POST" netlify netlify-honeypot="bot-field">
       <Row className="mb-3">
       <Form.Control type="hidden" name="form-name" value="contact"/>
 
