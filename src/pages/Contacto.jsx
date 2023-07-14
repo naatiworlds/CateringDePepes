@@ -1,10 +1,7 @@
-import banner from '../assets/banner.jpg'
-import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Button } from 'react-bootstrap';
 import './Contacto.css'
 import Form from '../Form'
-
 
 function Contacto() {
   return (

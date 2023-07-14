@@ -1,7 +1,7 @@
 import { Button } from 'react-bootstrap';
 import './NuestraCarta.css'
 
-function NuestraCarta(){
+function Fototeca(){
     return (
         <>
         <header>
@@ -10,8 +10,8 @@ function NuestraCarta(){
                 <div className='mask' >
                     <div className='cuadro'>
                     <div className='text-white'>
-                        <h1 className='mb-3'>Nuestra carta</h1>
-                        <Button variant="outline-light"><a href="/MenuPorPrecio">Mira nuestros menús</a></Button>
+                        <h1 className='mb-3'>Fototeca</h1>
+                        <Button variant="outline-light"><a href="/Contacto">Contáctenos</a></Button>
                     </div>
                     </div>
                 </div>
@@ -19,10 +19,10 @@ function NuestraCarta(){
         </header>
         <section>
             <br />
-            <p>Diseñamos tu menú a su medida <a href="/MenuPorPrecio">mire algunos ejemplos</a></p>
+            <br />
         </section>
         </>
     )
 }
 
-export default NuestraCarta
+export default Fototeca

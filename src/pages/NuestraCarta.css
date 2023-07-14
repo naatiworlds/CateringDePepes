@@ -30,6 +30,9 @@
     gap: 10em;
     /* margin: 10em 0;*/
 }
+p{
+    text-align: center;
+}
 .text-white h1{
     font-size: 60px;
     color: white;

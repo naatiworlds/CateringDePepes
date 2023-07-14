@@ -3,6 +3,9 @@ import './Footer.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import instagramLogo from './assets/instagram.png'
 import facebookLogo from './assets/facebook.webp'
+import { BsInstagram } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
 
 
 function Footer() {
@@ -21,8 +24,9 @@ function Footer() {
         <Card.Body>
             <Card.Title>Siguienos en:</Card.Title>
                 <Card.Text>
-                    <a href='https://www.instagram.com/cateringdepepes/' target='_blank'><img src={instagramLogo} alt="Un pequeño logo de instagram para el footer de la página" /></a>
-                    <a href="https://www.facebook.com/profile.php?id=100093870864040" target='_blank'><img src={facebookLogo} alt="Un pequeño logo de facebook para el footer de la página" /></a>
+                    <a href='https://www.instagram.com/cateringdepepes/' target='_blank'><BsInstagram></BsInstagram></a>
+                    <a href="https://www.facebook.com/profile.php?id=100093870864040" target='_blank'><BsFacebook></BsFacebook></a>
+                    <a href="https://wa.me/34634126753" target='_blank'><BsWhatsapp></BsWhatsapp></a>
                 </Card.Text>
         </Card.Body>
         </div>

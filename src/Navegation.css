@@ -15,3 +15,9 @@
     color: black;
     font-size: 22px;
 }
+.nav-link svg{
+    transform: scale(1);
+}
+.dropdown-item svg{
+    transform: scale(1);
+}

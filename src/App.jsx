@@ -6,6 +6,9 @@ import Contacto from "./pages/Contacto";
 import NuestraCarta from "./pages/NuestraCarta";
 import MenuPorPrecio from "./pages/MenuPorPrecio";
 import MenuInfantil from "./pages/MenuInfantil"
+import MenuALaCarta from "./pages/MenuALaCarta";
+import QuienesSomos from "./pages/QuienesSomos";
+import Fototeca from "./pages/Fototeca";
 import NoPage from "./pages/NoPage";
 
 function App(){
@@ -13,12 +16,15 @@ function App(){
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="contacto" element={<Contacto />} />
-          <Route path="NuestraCarta" element={<NuestraCarta />} />
-          <Route path="MenuPorPrecio" element={<MenuPorPrecio />} />
-          <Route path="MenuInfantil" element={<MenuInfantil />} />
-          <Route path="*" element={<NoPage />} />
+        <Route index element={<Home />} />
+        <Route path="contacto" element={<Contacto />} />
+        <Route path="NuestraCarta" element={<NuestraCarta />} />
+        <Route path="MenuPorPrecio" element={<MenuPorPrecio />} />
+        <Route path="MenuInfantil" element={<MenuInfantil />} />
+        <Route path="MenuALaCarta" element={<MenuALaCarta />} />
+        <Route path="QuienesSomos" element={<QuienesSomos />} />
+        <Route path="Fototeca" element={<Fototeca />} />
+        <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

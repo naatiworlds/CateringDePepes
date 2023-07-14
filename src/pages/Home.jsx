@@ -13,7 +13,7 @@ function Home() {
         <Imagen banner={banner2} />
       </section>
       <section class='presentación'>
-        <p>Una pequeña gran empresa dedicada al catering a nivel profesinal</p>
+        <p>Una empresa dedicada al catering a nivel profesinal</p>
       </section>
     </>
   )

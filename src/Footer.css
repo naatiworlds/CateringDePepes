@@ -11,6 +11,10 @@ footer{
     place-items: center;
 
 }
+.card-text{
+    text-align: left;
+    padding: 0;
+}
 .card-text img{
     width: 63px;
     height: 60px;
@@ -25,4 +29,8 @@ footer{
 }
 .copy{
     margin: 0 1em;
+}
+a svg{
+    margin: 0 1em;
+    transform: scale(2);
 }
