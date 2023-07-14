@@ -21,7 +21,7 @@ function From() {
     event.preventDefault();
   }
   return (
-    <Form id='formulario' name="contacto" method="POST" data-netlify="true">
+    <Form id='formulario' name="contacto" method="POST" netlify>
       <Row className="mb-3">
 
         <Form.Group as={Col} controlId="Name">
