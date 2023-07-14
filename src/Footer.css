@@ -14,6 +14,13 @@ footer{
 .card-text{
     text-align: left;
     padding: 0;
+    gap: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 .card-text img{
     width: 63px;

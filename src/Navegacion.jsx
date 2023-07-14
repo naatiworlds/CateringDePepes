@@ -20,7 +20,7 @@ function Navegacion() {
           <Navbar.Collapse>
             <Nav.Link href='/'><BsFillHouseFill></BsFillHouseFill>Inicio</Nav.Link>
             <Nav.Link href='/Contacto'><BsEnvelopeFill></BsEnvelopeFill>Contacto</Nav.Link>
-            <BsCardHeading></BsCardHeading><NavDropdown title="Nuestra carta" href='/nuestraCarta' >
+            <NavDropdown title="Nuestra carta" href='/nuestraCarta' >
 
               <NavDropdown.Item href='/NuestraCarta'>Nuestra carta</NavDropdown.Item>
               <NavDropdown.Divider></NavDropdown.Divider>
@@ -32,6 +32,7 @@ function Navegacion() {
             <Nav.Link href='/QuienesSomos'><BsMicrosoftTeams></BsMicrosoftTeams>Quiénes somos</Nav.Link>
             <Nav.Link href='/Fototeca'><BsFillImageFill></BsFillImageFill>Fototeca</Nav.Link>
           </Navbar.Collapse>
+          
         </Nav>
       </Navbar>
     </>

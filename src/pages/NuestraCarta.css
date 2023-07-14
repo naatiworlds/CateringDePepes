@@ -36,6 +36,7 @@ p{
 .text-white h1{
     font-size: 60px;
     color: white;
+    text-align: center;
 }
 .headerNuestraCarta a{
     color: white;
