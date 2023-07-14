@@ -41,7 +41,7 @@ a svg{
     margin: 0 1em;
     transform: scale(2);
 }
-a:hover {
+.card-text a:hover {
     color: black;
     font-weight: bold;
 }
