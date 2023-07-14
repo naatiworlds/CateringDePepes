@@ -35,8 +35,9 @@ footer{
     align-items: center;
     width: 100%;
 }
-.copy{
+.copy p{
     margin: 0 1em;
+    text-align: left;
 }
 a svg{
     margin: 0 1em;

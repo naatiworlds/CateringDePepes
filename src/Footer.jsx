@@ -34,9 +34,7 @@ function Footer() {
         </div>
      
       <Card.Body class='copy'>
-        <Card.Text>
-            © Catering de pepes 2023
-        </Card.Text>
+        <p>© Catering de pepes 2023</p>
       </Card.Body>
     </Card>
   );
