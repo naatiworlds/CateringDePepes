@@ -1,7 +1,9 @@
 import { Button } from 'react-bootstrap';
 import './NuestraCarta.css'
 
+
 function Fototeca(){
+    
     return (
         <>
         <header>
@@ -18,8 +20,7 @@ function Fototeca(){
             </div>
         </header>
         <section>
-            <br />
-            <br />
+            
         </section>
         </>
     )
